@@ -1,0 +1,35 @@
+# 系統檔案
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 編輯器檔案
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 暫存檔案
+*.tmp
+*.temp
+*.log
+
+# 環境檔案
+.env
+.env.local
+.env.production
+
+# 依賴檔案 (如果有使用npm/yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# 建置檔案
+dist/
+build/
+.cache/
+
+# 其他
+*.bak
+*.backup 
