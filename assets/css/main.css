@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #2563eb;
+  --color-primary: #3b82f6;
   --color-secondary: #f85a40;
 }
 
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #1d4ed8;
+  color: #3b82f6;
   text-decoration: none;
 }
 
@@ -427,7 +427,7 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 600;
-    color: #1d4ed8;
+    color: #1e40af;
   }
 
   .navbar .dropdown ul a i {
@@ -498,7 +498,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(37, 99, 235, 0.9);
+    background: rgba(30, 64, 175, 0.9);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -544,7 +544,7 @@ section {
   .navbar .getstarted:hover,
   .navbar .getstarted:focus:hover {
     color: #fff;
-    background: rgba(37, 99, 235, 0.8);
+    background: rgba(30, 64, 175, 0.8);
   }
 
   .navbar .dropdown ul,
@@ -660,7 +660,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(var(--color-primary) 50%, rgba(37, 99, 235, 0.4) 52%);
+  background: radial-gradient(var(--color-primary) 50%, rgba(30, 64, 175, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -681,7 +681,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(37, 99, 235, 0.7);
+  border: 5px solid rgba(30, 64, 175, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -836,7 +836,7 @@ section {
   width: 94px;
   height: 94px;
   margin-bottom: 20px;
-  background: radial-gradient(var(--color-primary) 50%, rgba(37, 99, 235, 0.4) 52%);
+  background: radial-gradient(var(--color-primary) 50%, rgba(30, 64, 175, 0.4) 52%);
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -855,7 +855,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(37, 99, 235, 0.7);
+  border: 5px solid rgba(30, 64, 175, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -978,7 +978,7 @@ section {
   content: "";
   height: 100%;
   width: 100%;
-  background: rgba(37, 99, 235, 0.1);
+  background: rgba(30, 64, 175, 0.1);
   border-radius: 50%;
   z-index: 1;
   top: 0;
@@ -1107,7 +1107,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #2563eb;
+  color: #1e40af;
   font-size: 26px;
   line-height: 0;
 }
@@ -1350,7 +1350,7 @@ section {
 }
 
 .portfolio-details .portfolio-info .btn-visit:hover {
-  background: #2563eb;
+  background: #1e40af;
 }
 
 .portfolio-details .portfolio-description h2 {
@@ -1394,7 +1394,7 @@ section {
 
 .portfolio-details .portfolio-description .testimonial-item .quote-icon-left,
 .portfolio-details .portfolio-description .testimonial-item .quote-icon-right {
-  color: #2563eb;
+  color: #1e40af;
   font-size: 26px;
   line-height: 0;
 }
@@ -1595,7 +1595,7 @@ section {
 }
 
 .pricing ul i {
-  color: #2563eb;
+  color: #1e40af;
   font-size: 24px;
   padding-right: 3px;
 }
@@ -1617,7 +1617,7 @@ section {
   padding: 10px 40px;
   border-radius: 50px;
   color: var(--color-primary);
-  border: 1px solid rgba(37, 99, 235, 0.2);
+  border: 1px solid rgba(30, 64, 175, 0.2);
   transition: none;
   font-size: 16px;
   font-weight: 600;
@@ -1785,7 +1785,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #2563eb;
+  background-color: #1e40af;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -1858,7 +1858,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #2563eb;
+  background: #1e40af;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1916,7 +1916,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(37, 99, 235, 0.8);
+  background: rgba(30, 64, 175, 0.8);
 }
 
 @keyframes animate-loading {
@@ -2035,7 +2035,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #2563eb;
+  background: #1e40af;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -2067,7 +2067,7 @@ section {
 }
 
 .hero .icon-box:hover {
-  background: #2563eb;
+  background: #1e40af;
 }
 
 .hero .icon-box:hover .title a,
@@ -2418,7 +2418,7 @@ section {
 }
 
 .blog .sidebar .search-form form button:hover {
-  background: rgba(37, 99, 235, 0.8);
+  background: rgba(30, 64, 175, 0.8);
 }
 
 .blog .sidebar .categories ul {
@@ -2596,7 +2596,7 @@ section {
 
 .blog .comments .reply-form input:focus {
   box-shadow: none;
-  border-color: rgba(37, 99, 235, 0.8);
+  border-color: rgba(30, 64, 175, 0.8);
 }
 
 .blog .comments .reply-form textarea {
@@ -2607,7 +2607,7 @@ section {
 
 .blog .comments .reply-form textarea:focus {
   box-shadow: none;
-  border-color: rgba(37, 99, 235, 0.8);
+  border-color: rgba(30, 64, 175, 0.8);
 }
 
 .blog .comments .reply-form .form-group {
@@ -2696,7 +2696,7 @@ section {
 
 .footer .footer-links ul i {
   padding-right: 2px;
-  color: rgba(37, 99, 235, 0.8);
+  color: rgba(30, 64, 175, 0.8);
   font-size: 12px;
   line-height: 0;
 }
