@@ -31,6 +31,20 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <style>
+    /* Show at most six portfolio items at once */
+    /* limit removed per request */
+    /* .limited-hidden { display: none !important; } */
+    /* Remove extra space at the bottom of the testimonials/portfolio section */
+    #testimonials { padding-bottom: 0 !important; margin-bottom: 0 !important; }
+    #testimonials .portfolio-isotope { margin-bottom: 0 !important; }
+    #testimonials .container:last-child { padding-bottom: 0 !important; }
+    #testimonials .swiper { margin-bottom: 0 !important; }
+    #testimonials .swiper-pagination { margin-bottom: 0 !important; bottom: 0 !important; }
+    /* Remove extra gap before pricing section */
+    #pricing { padding-top: 0 !important; margin-top: 0 !important; }
+  </style>
+
   <!-- =======================================================
   * Template Name: Impact
   * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
@@ -581,15 +595,7 @@
               </div>
             </div><!-- End Portfolio Item -->
             
-            <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-              <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/800px-OpenCV_Logo_with_text_svg_version.svg.png" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a title="More Details">RTSP傳輸協定串接相機與OpenCV程式架構</a></h4>
-                  <p>軟體程式設計</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+            
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
               <div class="portfolio-wrap">
@@ -649,7 +655,7 @@
                   <p>AI深度學習</p>
                 </div>
               </div>
-            </div>End Portfolio Item
+            </div><!-- End Portfolio Item -->
             <div class="col-xl-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
                 <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt=""></a>
@@ -695,6 +701,37 @@
                 <div class="portfolio-info">
                   <h4><a title="More Details">通訊系統演算法架構、對應硬體架構設計</a></h4>
                   <p>數位/類比電路系統設計</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <!-- New items replacing the removed branding card and adding five more -->
+
+
+
+
+
+            <!-- Added items to ensure 6 more cases without gaps -->
+
+
+
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/branding-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">影像處理系統前後端整合</a></h4>
+                  <p>軟體程式設計</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-books">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/books-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a title="More Details">最佳化演算法之Matlab模擬</a></h4>
+                  <p>Matlab模擬</p>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -702,173 +739,6 @@
         </div>
       </div>
     </section><!-- End Testimonials & Portfolio Section -->
-
-        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
-
-          <div>
-            <ul class="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">AI深度學習</li>
-              <li data-filter=".filter-product">電路系統設計</li>
-              <li data-filter=".filter-branding">軟體程式設計</li>
-              <li data-filter=".filter-books">Matlab模擬</li>
-            </ul><!-- End Portfolio Filters -->
-          </div>
-
-          <div class="row gy-4 portfolio-container">
-
-            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a title="More Details">音訊圖像之生成式深度學習架構設計</a></h4>
-                  <p>AI深度學習</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            
-            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-              <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a title="More Details">IC繞線與布局演算法之深度學習架構、硬體架構設計</a></h4>
-                  <p>數位/類比電路系統設計</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-              <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a title="More Details">加解密碼學演算法、硬體架構設計</a></h4>
-                  <p>數位/類比電路系統設計</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-            
-            <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-              <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/800px-OpenCV_Logo_with_text_svg_version.svg.png" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a title="More Details">RTSP傳輸協定串接相機與OpenCV程式架構</a></h4>
-                  <p>軟體程式設計</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-              <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/VR.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a title="More Details">VR遊戲場景設計</a></h4>
-                  <p>軟體程式設計</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-4 col-md-6 portfolio-item filter-books">
-              <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/inverter.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a title="More Details">單向電流Simulink電路架構設計與模擬</a></h4>
-                  <p>Matlab模擬</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-4 col-md-6 portfolio-item filter-books">
-              <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a title="More Details">通訊系統濾波器之電路架構設計</a></h4>
-                  <p>Matlab模擬</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-4 col-md-6 portfolio-item filter-books">
-              <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a title="More Details">交易金融模型設計</a></h4>
-                  <p>Matlab模擬</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a title="More Details">X光疾病預測演算法之深度學習架構</a></h4>
-                  <p>AI深度學習</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a title="More Details">人力資源資料科學預測之深度學習架構設計</a></h4>
-                  <p>AI深度學習</p>
-                </div>
-              </div>
-            </div>End Portfolio Item
-            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a title="More Details">衛星影像估測論文研究，深度學習、神經網路架構設計</a></h4>
-                  <p>AI深度學習</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a title="More Details">自動駕駛車輛車前狀況辨識之深度學習架構設計</a></h4>
-                  <p>AI深度學習</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-            
-            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-              <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a title="More Details">IC測試演算法、數位電路硬體架構設計、FPGA部署</a></h4>
-                  <p>數位/類比電路系統設計</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-              <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a title="More Details">低光源影像處理演算法、數位電路硬體架構設計</a></h4>
-                  <p>數位/類比電路系統設計</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-              <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a title="More Details">通訊系統演算法架構、對應硬體架構設計</a></h4>
-                  <p>數位/類比電路系統設計</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-          </div><!-- End Portfolio Container -->
-        </div>
-      </div>
-    </section><!-- End Portfolio Section -->
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing sections-bg">
@@ -881,15 +751,41 @@
         </div>
         <div class="row g-4 py-lg-5" data-aos="zoom-out" data-aos-delay="100">
 
-          <div class="col-lg-6">
+          <div class="col-lg-4">
+            <div class="pricing-item">
+              <h3>論文指導</h3>
+              <h5>(三個月指導)</h5>
+              <div class="icon">
+                <i class="bi bi-journal-text"></i>
+              </div>
+              <h4>9萬</h4>
+              <h3>*3萬(訂金)+3萬/月(2期)</h3>
+              <ul>
+                <li><i class="bi bi-check"></i> 論文題目與章節規劃</li>
+                <li><i class="bi bi-check"></i> 文獻蒐集與整理建議</li>
+                <li><i class="bi bi-check"></i> 研究方法設計與撰寫指導</li>
+                <li><i class="bi bi-check"></i> 結果分析與圖表呈現建議</li>
+                <li><i class="bi bi-check"></i> 逐章潤稿與修改建議</li>
+                <li><i class="bi bi-check"></i> 一對一訊息程式指導</li>
+                <li><i class="bi bi-check"></i> 一對一訊息論文指導</li>
+                <li style="text-decoration: line-through; color: #999;"><i class="bi bi-x-circle"></i> 一對一線上程式指導</li> 
+                <li style="text-decoration: line-through; color: #999;"><i class="bi bi-x-circle"></i> 一對一線上論文指導</li> 
+                <li style="text-decoration: line-through; color: #999;"><i class="bi bi-x-circle"></i> 程式實作與除錯指導</li>
+                <li><i class="bi bi-check"></i> <strong style="color: #3b82f6;">*註:本方案不含一對一視訊教學，均透過訊息作指導</strong></li>
+              </ul>
+              <div class="text-center"><a href="#contact" class="buy-btn">免費諮詢</a></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
             <div class="pricing-item">
               <h3>論文與程式指導</h3>
-              <h5>(半年指導至畢業)</h5>
+              <h5>(半年指導)</h5>
               <div class="icon">
                 <i class="bi bi-box"></i>
               </div>
-              <h4>42萬</h4>
-              <h3>*12萬(訂金)+5萬/月(6期)</h3>
+              <h4>39萬</h4>
+              <h3>*9萬(訂金)+5萬/月(6期)</h3>
               <ul>
                 <li><i class="bi bi-check"></i> 協助題目制定</li>
                 <li><i class="bi bi-check"></i> 完整程式實作與除錯指導</li>
@@ -902,21 +798,20 @@
                 <li style="text-decoration: line-through; color: #999;"><i class="bi bi-x-circle"></i> 一對一線上程式指導</li> 
                 <li style="text-decoration: line-through; color: #999;"><i class="bi bi-x-circle"></i> 一對一線上論文指導</li> 
                 <li><i class="bi bi-check"></i> <strong style="color: #3b82f6;">*註:本方案不含一對一視訊教學，均透過訊息作指導</strong></li>
-                <li><i class="bi bi-check"></i> <strong style="color: #3b82f6;">免費諮詢</strong></li>
               </ul>
               <div class="text-center"><a href="#contact" class="buy-btn">免費諮詢</a></div>
             </div>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-4">
           <div class="pricing-item">
             <h3>論文與程式指導</h3>
-            <h5>(半年至一年指導至畢業含一對一線上教學)</h5>
+            <h5>(半年至一年指導含一對一線上教學)</h5>
             <div class="icon">
               <i class="bi bi-airplane"></i>
             </div>
-            <h4>75萬</h4>
-            <h3>*25萬(訂金)+5萬/月(10期)</h3>
+            <h4>69萬</h4>
+            <h3>*19萬(訂金)+5萬/月(10期)</h3>
             <ul>
               <li><i class="bi bi-check"></i> 協助題目制定</li>
               <li><i class="bi bi-check"></i> 完整程式實作與除錯指導</li>
@@ -933,38 +828,71 @@
           </div>
       </div>
 
-        <div class="col-lg-6">
-          <div class="pricing-item">
-            <h3>大學/碩士/博士備審撰寫服務</h3>
-            <h3>(專業代寫備審資料)</h3>
-            <div class="icon">
-              <i class="bi bi-file-earmark-text"></i>
-            </div>
-            <h4>2.2萬</h4>
-            <h3>*1.2萬(訂金)+1萬(完成後付款)</h3>
-            <h5>專業代寫備審資料，協助您順利進入理想學府</h5>
-            <ul>
-              <li><i class="bi bi-check"></i> <strong>1. 前期規劃</strong></li>
-              <li style="margin-left: 20px;"><i class="bi bi-check"></i> 確認目標校系與備審資料需求</li>
-              <li style="margin-left: 20px;"><i class="bi bi-check"></i> 盤點學生背景與優勢</li>
-              <li style="margin-left: 20px;"><i class="bi bi-check"></i> 制定申請時程表</li>
-              <li><i class="bi bi-check"></i> <strong>2. 資料準備</strong></li>
-              <li style="margin-left: 20px;"><i class="bi bi-check"></i> 撰寫自傳</li>
-              <li style="margin-left: 20px;"><i class="bi bi-check"></i> 撰寫讀書/研究計畫</li>
-              <li style="margin-left: 20px;"><i class="bi bi-check"></i> 整理成績單、語言檢定、作品集與其他加分資料</li>
-              <li><i class="bi bi-check"></i> <strong>3. 審查與潤稿</strong></li>
-              <li style="margin-left: 20px;"><i class="bi bi-check"></i> 檢查內容、格式、檔案命名</li>
-              <li><i class="bi bi-check"></i> <strong>4. 繳交確認</strong></li>
-              <li style="margin-left: 20px;"><i class="bi bi-check"></i> 確認資料完整並送出</li>
-              <li style="margin-left: 20px;"><i class="bi bi-check"></i> 備份所有資料</li>
-            </ul>
-            <div class="text-center"><a href="#contact" class="buy-btn">免費諮詢</a></div>
-          </div>
-      </div>
+        
 
     </section><!-- End Pricing Section -->
 
-    
+    <!-- ======= ROI/Benefits Section ======= -->
+    <section id="roi" class="about sections-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>為什麼要接受指導? 讓我們算給您看</h2>
+          <h5>以電資理工學生畢業平均年薪106萬（約 8.83萬/月，來源：104）來計算，若未接受教學而延畢 6~12 個月，將產生顯著的時間與金錢機會成本。</h5>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-12">
+            <h5>假設</h5>
+            <ul>
+              <li><i class="bi bi-check"></i> 平均年薪：106萬（8.83萬/月）</li>
+              <li><i class="bi bi-check"></i> 延畢時間風險: 6~12 個月</li>
+              <li><i class="bi bi-check"></i> 延畢期間損失＝每月薪資 × 延畢月數</li>
+            </ul>
+
+            <div class="table-responsive mt-3">
+              <table class="table table-bordered align-middle">
+                <thead>
+                  <tr>
+                    <th>方案</th>
+                    <th>我們的費用</th>
+                    <th>能避免的機會成本(每月薪資 × 延畢月數)</th>
+                    <th>金錢量化效益(能避免的機會成本 - 我們的費用)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>論文與程式（半年）</td>
+                    <td>39 萬</td>
+                    <td>延畢半年約 53 萬</td>
+                    <td><strong>+14萬(+36%)</strong></td>
+                  </tr>
+                  <tr>
+                    <td>論文與程式（一年，含線上教學）</td>
+                    <td>69 萬</td>
+                    <td>延畢一年約 106 萬</td>
+                    <td><strong>+37萬(+54%)</strong></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h6 class="mt-3">除金錢外的可量化效益</h6>
+            <ul>
+              <li><i class="bi bi-check"></i> 提早入職與年資累積（晉升與調薪提早 6~12 個月）</li>
+              <li><i class="bi bi-check"></i> 減少重修/重考/延畢成本（學分費、住宿交通等）</li>
+              <li><i class="bi bi-check"></i> 作品與論文品質提升（投遞頂尖團隊的成功率）</li>
+              <li><i class="bi bi-check"></i> 壓力與不確定性降低（時間可投入求職準備）</li>
+              <li><i class="bi bi-check"></i> 若從事IC設計業，第一年薪通常160萬以上，金錢效益更為可觀</li>
+            </ul>
+          </div>
+          <h6 class="mt-3">因此，若您程式或論文卡關許久，請不要再猶豫，讓我們幫您盡早畢業，賺取所有效益</h6>
+        </div>
+
+
+      </div>
+    </section><!-- End ROI/Benefits Section -->
+
   
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -1109,82 +1037,7 @@
   </div>
 </section><!-- End Frequently Asked Questions Section -->
 
-  <!-- ======= Teacher Recruitment Section ======= -->
-  <section id="recruitment" class="services sections-bg">
-    <div class="container" data-aos="fade-up">
 
-      <div class="section-header">
-        <h2>老師招募</h2>
-        <h5>我們正在尋找優秀的電資理工領域專業人才加入我們的團隊，一起協助學生完成學術目標</h5>
-      </div>
-
-      <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="col-lg-6">
-          <div class="service-item position-relative">
-            <div class="icon">
-              <i class="bi bi-mortarboard"></i>
-            </div>
-            <h3>招募條件與工作內容</h3>
-            <h6 style="font-size: 16px; line-height: 1.8;">
-              <strong>招募條件：</strong><br>
-              • 具備電資理工相關領域專業知識<br>
-              • 有專案實作經驗<br>
-              • 具備良好的教學與溝通能力<br>
-              • 願意協助學生完成學術目標或專案實作<br><br>
-              <strong>工作內容：</strong><br>
-              • 一對一論文程式指導<br>
-              • 程式專案實作輔導<br>
-              • 學術論文撰寫輔導<br>
-              • <strong style="color: red;">線上教學需配合學生需求做完整備課</strong><br>
-              • <strong style="color: red;">除線上教學外需訊息解惑學生問題</strong><br><br>
-              <strong>薪資待遇：</strong><br>
-              <!-- • <strong style="color: red;">依接案學生量給薪，1位學生月薪資約為20000~30000元<br>
-                範例: 接案3位學生，每個月薪資約為60000~90000元
-              </strong><br> -->
-              • <strong style="color: red;">上課終點費2000元起跳，或以接案學生量給月薪(面議)</strong><br>   
-              • 薪資優渥，遠優於一般家教薪資行情<br>
-              • 無需花時間尋找學生<br>
-              • 兼顧學業與工作<br>
-            </h6>
-            <a href="#contact" class="readmore stretched-link">立即應徵 <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div><!-- End Service Item -->
-
-        <div class="col-lg-6">
-          <div class="service-item position-relative">
-            <div class="icon">
-              <i class="bi bi-heart"></i>
-            </div>
-            <h3>福利制度與履歷寄送</h3>
-            <h6 style="font-size: 16px; line-height: 1.8;">
-              <strong>福利制度：</strong><br>
-              • 彈性工作時間，可自由安排教學時間<br>
-              • 全遠端工作<br>
-              • 無需花時間尋找學生<br>
-              • 兼顧學業與工作<br><br>
-              <strong>請備妥履歷包含：</strong><br>
-              • 個人基本資料<br>
-              • 學歷背景<br>
-              • 專業技能<br>
-              • 專案經驗<br>
-              • 論文發表記錄<br>
-              • 教學經驗<br>
-              • 聯絡方式<br>
-              • 可配合時間
-            </h6>
-
-            <h6 style="font-size: 16px; line-height: 1.8;">
-              <strong>寄送履歷後我們將盡速審核後回覆，如無錄取將不另行通知</strong>
-            </h6>
-            <a href="#contact" class="readmore stretched-link">寄送履歷 <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div><!-- End Service Item -->
-
-      </div>
-
-    </div>
-  </section><!-- End Teacher Recruitment Section -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
